@@ -2,3 +2,5 @@ streamlit
 requests
 mistralai
 python-dotenv
+google-generativeai
+pillow
