@@ -11,6 +11,10 @@ from prompt import prompt
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 
+# Add logo
+logo_path = "logo.png"
+if os.path.exists(logo_path):
+    st.image(logo_path, width=300)
 
 # Configure the Google API key
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
